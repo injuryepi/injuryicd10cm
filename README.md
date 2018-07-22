@@ -9,9 +9,9 @@ To install and load the **injuryicd10cm** package into your working environment:
 2. Install the overdoser package: *`devtools::install_github("injuryepi/injuryicd10cm")`*
 3. Load the package: `library(injuryicd10cm)`
 
-and try 
-library(tidyverse)
-library(fuzzyjoin)
-library(overdoser)
+and try    
+library(tidyverse)   
+library(fuzzyjoin)   
+library(overdoser)   
 icd10cm_data150 %>% add_inj_intent_mech_icd10cm(icd10cm_main = principal_diag, reference = "specific")
 
