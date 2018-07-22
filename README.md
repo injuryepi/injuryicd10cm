@@ -10,10 +10,11 @@ To install and load the **injuryicd10cm** package into your working environment:
 3. Load the package: `library(injuryicd10cm)`
 
 and try these lines of R codes:  
-`
+
+```{r}
 library(tidyverse)   
 library(fuzzyjoin)   
 library(overdoser)   
 
 icd10cm_data150 %>% add_inj_intent_mech_icd10cm(icd10cm_main = principal_diag, reference = "specific")
-`
+```
