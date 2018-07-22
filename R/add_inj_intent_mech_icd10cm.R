@@ -13,8 +13,8 @@
 #' @export
 #' @importFrom fuzzyjoin regex_left_join
 #'
-#' @examples to be added
-#' library(dplyr)
+#' @examples
+#' library(tidyverse)
 #' icd10cm_data150 %>% add_inj_intent_mech_icd10cm(icd10cm_main = principal_diag)
 #'
 #' data_mech <- icd10cm_data150 %>%
