@@ -14,8 +14,15 @@
 #' @importFrom fuzzyjoin regex_left_join
 #'
 #' @examples to be added
-#' library(tidyverse)
-#' filter(hosp_set, year == 2016, quarters(discharge_date) == "Q4" ) %>% od_drug_apr_icd10cm(diag_ecode_col = c(3, 6)) %>% sample_n(5)
+#' library(dplyr)
+#' icd10cm_data150 %>% add_inj_intent_mech_icd10cm(icd10cm_main = principal_diag)
+#' data_mech <- icd10cm_data150 %>%
+#' add_inj_intent_mech_icd10cm(icd10cm_main = principal_diag, reference = "mechanism")
+#'data_mech %>% icd10cm_data150 %>%
+#'add_inj_intent_mech_icd10cm(icd10cm_main = principal_diag, reference = "mechanism") %>%
+#'drop_na() %>%
+#'count(mechanism) %>% arrange(-n) %>%
+#'top_n(10)
 #'
 
 add_inj_intent_mech_icd10cm <- function(data, icd10cm_main,

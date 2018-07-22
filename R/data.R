@@ -66,15 +66,8 @@
 #' @source created to use in examples.
 #' @keywords datasets
 #' @examples
-#' library(dplyr)
-#' icd10cm_data150 %>% add_inj_intent_mech_icd10cm(icd10cm_main = principal_diag)
-#' data_mech <- icd10cm_data150 %>%
-#' add_inj_intent_mech_icd10cm(icd10cm_main = principal_diag, reference = "mechanism")
-#'data_mech %>% icd10cm_data150 %>%
-#'add_inj_intent_mech_icd10cm(icd10cm_main = principal_diag, reference = "mechanism") %>%
-#'drop_na() %>%
-#'count(mechanism) %>% arrange(-n) %>%
-#'top_n(10)
+#' icd10cm_data150
+#'
 "icd10cm_data150"
 
 
