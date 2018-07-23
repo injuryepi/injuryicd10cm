@@ -70,4 +70,18 @@
 #'
 "icd10cm_data150"
 
+#' icd-10-cm list and descriptions.
+#'
+#' Dataset of 143,865 rows and 3 variables.
+#'
+#'
+#' @format Data frame
+#' @source
+#'   \url{https://www.cdc.gov/nchs/icd/icd10cm.htm}
+#' @keywords datasets
+#' @examples
+#' tail(icd10cm_codes_2019_regex)
+#'
+"icd10cm_codes_2019_regex"
+
 
