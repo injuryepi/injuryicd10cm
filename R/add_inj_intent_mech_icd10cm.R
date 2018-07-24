@@ -37,6 +37,6 @@ add_inj_intent_mech_icd10cm <- function(data, icd10cm_main,
 
   data %>%
     mutate(!!icd10cm_regex := !!icd10cm_main) %>%
-    fuzzyjoin::regex_left_join(icd10cm_inj, by = c("icd10cm_regex", "icd10cm_regex"), ignore_case = ignore_case) %>%
+    fuzzyjoin::regex_left_join(icd10cm_inj, by = c(icd10cm_regex = "icd10cm_regex"), ignore_case = ignore_case) %>%
     select(-icd10cm_regex.x, -icd10cm_regex.y)
 }
