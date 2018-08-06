@@ -8,7 +8,7 @@
 #' @export
 #' @importFrom purrr compose
 #'
-#' @examples to be added
+#' @examples
 #' library(tidyverse)
 #' make_regex(c("X45x2", "Y65xx"))
 #'

@@ -30,7 +30,7 @@
 
 #' icd10cm injury matrix by intent only.
 #'
-#' Dataset of 6 rows and 2 variables.
+#' Dataset of 5 rows and 2 variables.
 #'
 #'
 #' @format Data frame
@@ -45,7 +45,7 @@
 
 #' icd10cm injury matrix by mechanism only.
 #'
-#' Dataset of 34 rows and 2 variables.
+#' Dataset of 32 rows and 3 variables.
 #'
 #'
 #' @format Data frame
@@ -57,9 +57,23 @@
 #'
 "icd10cm_mech_regex"
 
+#' The icd10cm injury matrix by intent and mechanism.
+#'
+#' Dataset of 93 rows and 4 variables.
+#' grouped by intent and mechanism from original with icd10cm code in regular expressions
+#'
+#' @format Data frame
+#' @source modified from the injury matrix "icd10cm_injury_matrix"
+#' @keywords datasets
+#' @examples
+#' head(icd10cm_intent_mech_regex, 10)
+#'
+
+"icd10cm_intent_mech_regex"
+
 #' Dataset with icd-10-cm codes.
 #'
-#' Dataset of 150 rows and 2 variables.
+#' Dataset of 150 rows and 3 variables.
 #'
 #'
 #' @format Data frame
