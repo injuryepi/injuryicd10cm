@@ -28,8 +28,8 @@ library(tidyverse)
 dat <- data.frame(d1 = c("T63023", "X92821", "X99100", "T360x"),
 d2 = c("T65823", "Y030x0", "T17200", "V0100x" ))
 
-dat \%>\% intent_mech(inj_col = c(1,2), reference = "both")
-dat \%>\% intent_mech(inj_col = c(1,2), reference = "intent")
-dat \%>\% intent_mech(inj_col = c(1,2), reference = "mechanism")
+dat \%>\% create_intent_mech(inj_col = c(1,2), reference = "both")
+dat \%>\% create_intent_mech(inj_col = c(1,2), reference = "intent")
+dat \%>\% create_intent_mech(inj_col = c(1,2), reference = "mechanism")
 
 }
