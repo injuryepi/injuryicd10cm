@@ -12,7 +12,7 @@ created to use in examples.
 icd10cm_data150
 }
 \description{
-Dataset of 150 rows and 2 variables.
+Dataset of 150 rows and 3 variables.
 }
 \examples{
 icd10cm_data150

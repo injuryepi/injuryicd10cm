@@ -12,7 +12,7 @@ Grouped from icd10cm_inj_regex
 icd10cm_intent_regex
 }
 \description{
-Dataset of 6 rows and 2 variables.
+Dataset of 5 rows and 2 variables.
 }
 \examples{
 icd10cm_intent_regex

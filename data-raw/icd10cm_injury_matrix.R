@@ -4,3 +4,4 @@ icd10cm_injury_matrix <- icd10cm_inj_matrix %>%
   select(-icd10cm, -icd10cm_f)
 
 devtools::use_data(icd10cm_injury_matrix, compress = "xz", overwrite = T)
+
