@@ -2,7 +2,7 @@ Package: injuryicd10cm
 Type: Package
 Title: ICD-10-CM Injury Matrix
 Year: 2018
-Version: 0.1.0
+Version: 0.1.3
 Author: Mamadou Ndiaye
 Maintainer: injuryepi <injury.epi@gmail.com>
 Description: functions for adding intent and mechanism of injury to datasets with ICD-10-CM codes
