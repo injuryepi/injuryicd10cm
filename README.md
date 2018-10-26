@@ -6,7 +6,7 @@ A R package for the use of the injury ICD-10-CM matrix
 To install and load the **injuryicd10cm** package into your working environment:
 
 1. Install the devtools package: *`install.packages("devtools")`*
-2. Install the overdoser package: *`devtools::install_github("injuryepi/injuryicd10cm")`*
+2. Install the injuryicd10cm package: *`devtools::install_github("injuryepi/injuryicd10cm")`*
 3. Load the package: `library(injuryicd10cm)`
 
 and try these lines of R codes to get intent, mechanism or description of any ICD-10-CM codes:  
