@@ -1,7 +1,7 @@
 # injuryicd10cm
 A R package for the use of the injury ICD-10-CM matrix
 
-**injuryicd10cm**, a package with functions and data for the analysis of icd-10-cm codes related to injury. It add intent and mechanism, and ICD-10-CM code description to the inputed data.
+**injuryicd10cm**, a package with functions and data for the analysis of icd-10-cm codes related to injury. It adds intent and mechanism, and ICD-10-CM code description to the inputed data.
 
 To install and load the **injuryicd10cm** package into your working environment:
 
